@@ -1,1 +1,1 @@
-Course Golang Alterra Academy
+Basic Golang Course Alterra Academy

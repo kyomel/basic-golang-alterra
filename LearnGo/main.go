@@ -1,5 +1,33 @@
 package main
 
+// contoh func without parameter
+// func sayHello() {
+// 	fmt.Println("Hello Vania")
+// }
+
+// contoh func with parameter
+// func greeting(hour int) {
+// 	if hour < 12 {
+// 		fmt.Println("Selamat Pagi Vania")
+// 	} else if hour < 18 {
+// 		fmt.Println("Selamat Sore Vania")
+// 	} else {
+// 		fmt.Println("Selamat Malam Vania")
+// 	}
+// }
+
+// contoh func single return value
+// func calculateSquare(side int) int {
+// 	return side * side
+// }
+
+// contoh func multiple return value
+// func calculateCircle(diameter float64) (float64, float64) {
+// 	var keliling = math.Pi * math.Pow(diameter/2, 2)
+// 	var luas = math.Pi * diameter
+// 	return keliling, luas
+// }
+
 func main() {
 	// First Program Golang
 	// fmt.Println("Hello, I am programmer!")
@@ -125,4 +153,22 @@ func main() {
 	// copy(copied_colors, colors)
 	// fmt.Println(copied_colors)
 
+	// Map
+	// var harga = map[string]int{"siomay": 1000, "batagor": 2000}
+	// fmt.Println(harga)
+	// var harga = make(map[string]int)
+	// harga["bakwan"] = 7000
+	// fmt.Println(harga)
+
+	// Function call
+	// hour := 15
+	// sayHello()
+	// greeting(hour)
+	// var side = 5
+	// wide := calculateSquare(side)
+	// fmt.Printf("luas persegi: %d \n\n", wide)
+	// var diameter float64 = 15
+	// keliling, luas := calculateCircle(diameter)
+	// fmt.Printf("luas lingkaran: %.2f \n", keliling)
+	// fmt.Printf("keliling lingkaran: %.2f \n", luas)
 }
